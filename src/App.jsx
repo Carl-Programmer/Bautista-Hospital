@@ -23,17 +23,17 @@ const services = [
 
 const doctors = [
   {
-    name: "Dr. Jm Ollue",
+    name: "Dr. Name",
     specialty: "Internal Medicine",
     schedule: "Mon, Wed, Fri",
   },
   {
-    name: "Dr. Manish Chamdal",
+    name: "Dr. Name",
     specialty: "Pediatrics",
     schedule: "Tue, Thu, Sat",
   },
   {
-    name: "Dr. Juan Dela Cruz",
+    name: "Dr. Name",
     specialty: "Obstetrics & Gynecology",
     schedule: "Mon to Thu",
   },
@@ -72,11 +72,11 @@ function Hero() {
   return (
     <section className="hero" id="home">
       <div className="hero-content">
-        <p className="eyebrow">Green and white hospital showcase</p>
+        <p className="eyebrow">Trusted Healthcare in Cavite City</p>
         <h1>Bautista Hospital</h1>
         <p className="hero-copy">
-          A calm, professional hospital website mockup focused on patient trust,
-          service discovery, and quick doctor appointment requests.
+          Providing quality healthcare services with compassionate medical professionals,
+          modern facilities, and patient-centered care for the community.
         </p>
         <div className="hero-actions">
           <a className="primary-button" href="#appointment">Set Appointment</a>
@@ -90,7 +90,7 @@ function Hero() {
           <span className="stat-label">Emergency access</span>
         </div>
         <div>
-          <span className="stat-value">18+</span>
+          <span className="stat-value">10+</span>
           <span className="stat-label">Clinic departments</span>
         </div>
         <div>
@@ -161,9 +161,8 @@ function AppointmentForm() {
         <p className="eyebrow">Appointments</p>
         <h2>Request a doctor visit</h2>
         <p>
-          This mockup form shows the basic patient flow: choose a department,
-          preferred doctor, date, and contact details. In a real site this would
-          connect to a backend and notify hospital staff.
+  Patients may request an appointment by providing their preferred doctor,
+  department, and contact details for proper scheduling and coordination.
         </p>
 
         <div className="notice-list">
